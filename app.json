@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "alarm",
+    "name": "alrm",
     "slug": "alarm",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.jarvisluke.alarm"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
